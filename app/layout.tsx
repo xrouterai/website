@@ -3,7 +3,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'xRouter',
-  description: 'Route your way to the future',
+  description: 'AI-Routed Futures',
   icons: {
     icon: '/favicon.ico',
     shortcut: '/favicon.ico',
