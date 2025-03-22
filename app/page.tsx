@@ -1,7 +1,7 @@
 "use client"
 
-import BackgroundPaths from "../components/kokonutui/background-paths"
+import BackgroundPaths from "../components/background-paths"
 
-export default function SyntheticV0PageForDeployment() {
+export default function Page() {
   return <BackgroundPaths />
 }

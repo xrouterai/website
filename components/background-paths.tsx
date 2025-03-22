@@ -3,7 +3,6 @@
 import type React from "react"
 
 import { motion } from "framer-motion"
-import { Button } from "@/components/ui/button"
 import { useEffect, useState } from "react"
 
 function FloatingPaths({
@@ -29,7 +28,7 @@ function FloatingPaths({
   return (
     <div className="absolute inset-0 pointer-events-none">
       <svg className={`w-full h-full ${getPathColor()}`} viewBox="0 0 696 316" fill="none">
-        <title>Background Paths</title>
+        <title>Next-Gen Pathfinding</title>
         {paths.map((path) => (
           <motion.path
             key={path.id}
